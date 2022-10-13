@@ -1,4 +1,4 @@
-#Listas de Records en Friday Night Funkin'
+# Listas de Records en Friday Night Funkin'
 | Canción | Score |
 | --- | --- |
 | Burning Hatred | 119580 |
