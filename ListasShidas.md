@@ -1,6 +1,6 @@
 ## Usuario
 
-ID
+ID (PK)
 
 Nombre de Usuario
 
@@ -10,14 +10,10 @@ Telefono
 
 Correo electrónico
 
-País 
-
-Amigos
-
 
 ## Juego
 
-ID
+ID (PK)
 
 Nombre del Juego
 
@@ -27,32 +23,39 @@ Precio
 
 ## Launcher (Pivote)
 
-ID
+ID (PK)
 
-Launcher
+Launcher 
 
 ## Plataforma (Pivote)
 
-ID
+ID (PK)
 
-Nombre de la Plataforma
+Nombre de la Plataforma 
 
 ## Usuarios_x_juegos (Catalógo)
 
-ID
+ID (PK)
 
-Usuario
+Usuario (FK)
  
-Juego
+Juego (FK)
 
 ## JuegoXPlataformaXLauncher  (Catalógo)
 
-ID
+ID (PK)
 
-Juego
+Juego (FK)
 
-Plataforma
+Plataforma (FK)
 
-Launcher
+Launcher (FK)
 
+
+## Relaciones
+
+ 1. Un usuario tiene varios juegos (1- M)
+ 1. Un usuario puede tener varias plataformas (1-M)
+ 1. Una plataforma puede tener varios launcher (1-M)
+ 1. Un juego puede tener varios launcher (1-M)
 
