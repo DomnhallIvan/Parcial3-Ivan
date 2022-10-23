@@ -55,7 +55,7 @@ Launcher (FK)
 ## Relaciones
 
  1. Una plataforma puede tener varios launcher (1-M)
- 1. Un launcher puede tener varios usuarios
+ 1. Un launcher puede tener varios usuarios (1-M)
   1. Un usuario tiene varios juegos (1- M)
  1. Un juego puede tener varios launcher (1-M)
 
