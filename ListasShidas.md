@@ -60,5 +60,5 @@ Launcher (FK)
  1. Un juego puede tener varios launcher (1-M)
 
 
-![A](https://cdn.discordapp.com/attachments/1012736848797380690/1034489242711240824/OnO.drawio_1.png)
+![A](https://cdn.discordapp.com/attachments/1012736848797380690/1034489824113066084/OnO.drawio_2.png)
 
