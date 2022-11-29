@@ -2,7 +2,7 @@
 
 ID (PK)
 
-Nombre de Usuario
+Nombre de Usuario UNIQUE
 
 Edad
 
@@ -15,7 +15,7 @@ Correo electrónico
 
 ID (PK)
 
-Nombre del Juego
+Nombre del Juego UNIQUE
 
 Género
 
